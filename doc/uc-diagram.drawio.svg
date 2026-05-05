@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Freelancer5u use case diagram</title>
+  <desc id="desc">Use case diagram with User and Admin actors and five use cases.</desc>
+  <style>
+    .frame { fill: #ffffff; stroke: #222222; stroke-width: 3; }
+    .usecase { fill: #ffffff; stroke: #222222; stroke-width: 3; }
+    .actor, .link { fill: none; stroke: #222222; stroke-width: 3; stroke-linecap: round; }
+    .label { fill: #222222; font-family: Arial, sans-serif; font-size: 28px; text-anchor: middle; }
+    .title { fill: #222222; font-family: Arial, sans-serif; font-size: 24px; text-anchor: middle; }
+  </style>
+
+  <rect class="frame" x="250" y="60" width="600" height="500" />
+  <text class="title" x="550" y="105">Freelancer5u</text>
+
+  <ellipse class="usecase" cx="430" cy="180" rx="120" ry="42" />
+  <text class="label" x="430" y="190">Job suchen</text>
+
+  <ellipse class="usecase" cx="430" cy="320" rx="145" ry="42" />
+  <text class="label" x="430" y="330">Job uebernehmen</text>
+
+  <ellipse class="usecase" cx="430" cy="460" rx="140" ry="42" />
+  <text class="label" x="430" y="470">Job abschliessen</text>
+
+  <ellipse class="usecase" cx="680" cy="215" rx="150" ry="42" />
+  <text class="label" x="680" y="225">Company erfassen</text>
+
+  <ellipse class="usecase" cx="680" cy="370" rx="120" ry="42" />
+  <text class="label" x="680" y="380">Job erfassen</text>
+
+  <circle class="actor" cx="130" cy="245" r="18" />
+  <line class="actor" x1="130" y1="263" x2="130" y2="335" />
+  <line class="actor" x1="95" y1="285" x2="165" y2="285" />
+  <line class="actor" x1="130" y1="335" x2="100" y2="380" />
+  <line class="actor" x1="130" y1="335" x2="160" y2="380" />
+  <text class="label" x="130" y="430">User</text>
+
+  <circle class="actor" cx="960" cy="245" r="18" />
+  <line class="actor" x1="960" y1="263" x2="960" y2="335" />
+  <line class="actor" x1="925" y1="285" x2="995" y2="285" />
+  <line class="actor" x1="960" y1="335" x2="930" y2="380" />
+  <line class="actor" x1="960" y1="335" x2="990" y2="380" />
+  <text class="label" x="960" y="430">Admin</text>
+
+  <line class="link" x1="148" y1="260" x2="315" y2="190" />
+  <line class="link" x1="165" y1="285" x2="285" y2="320" />
+  <line class="link" x1="148" y1="310" x2="295" y2="448" />
+
+  <line class="link" x1="810" y1="215" x2="942" y2="278" />
+  <line class="link" x1="800" y1="370" x2="942" y2="292" />
+</svg>
